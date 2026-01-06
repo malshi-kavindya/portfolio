@@ -38,7 +38,7 @@ const Projects: React.FC = () => {
       </Typography>
       <Grid container spacing={3}>
         {projects.map(({ title, description, link }) => (
-          <Grid item xs={12} sm={6} key={title}>
+          <Grid >
             <Card sx={{ height: '100%', display: 'flex', flexDirection: 'column' }}>
               <CardContent sx={{ flexGrow: 1 }}>
                 <Typography variant="h6" gutterBottom>
