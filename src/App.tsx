@@ -1,26 +1,28 @@
-import React from 'react'
-import Container from '@mui/material/Container'
-import Box from '@mui/material/Box'
-import Hero from './components/Hero.tsx'
-import Projects from './components/Projects'
-import Volunteer from './components/Volunteer.tsx'
-import Experience from './components/Experience.tsx'
+import { ThemeProvider, CssBaseline, Box } from '@mui/material';
+import { theme } from './theme/theme';
+import Navbar from './components/Navbar';
+import Hero from './sections/Hero';
+import Projects from './sections/Projects';
+import Certifications from './sections/Certifications';
+import Experience from './sections/Experience';
+import Contact from './sections/Contact';
 
-const App: React.FC = () => {
+const sections = ['home', 'projects', 'certifications', 'experience', 'contact'];
+
+function App() {
   return (
-    <Container maxWidth="md" sx={{ py: 4 }}>
-      <Hero />
-      <Box my={6}>
+    <ThemeProvider theme={theme}>
+      <CssBaseline />
+      <Box sx={{ minHeight: '100vh' }}>
+        <Navbar sections={sections} />
+        <Hero />
         <Projects />
-      </Box>
-      <Box my={6}>
-        <Volunteer />
-      </Box>
-      <Box my={6}>
+        <Certifications />
         <Experience />
+        <Contact />
       </Box>
-    </Container>
-  )
+    </ThemeProvider>
+  );
 }
 
-export default App
+export default App;
