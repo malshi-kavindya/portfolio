@@ -66,7 +66,7 @@ export default function Hero() {
               WebkitTextFillColor: 'transparent',
             }}
           >
-            John Doe
+            Malshi Kavindya
           </Typography>
 
           <Typography
