@@ -78,7 +78,7 @@ export default function Navbar({ sections }: NavbarProps) {
             }}
             onClick={() => scrollToSection('home')}
           >
-            Portfolio
+            Malshi
           </Box>
           <Box sx={{ display: 'flex', gap: 1 }}>
             {sections.map((section) => (

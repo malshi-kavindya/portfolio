@@ -11,40 +11,28 @@ import { Award, ExternalLink } from 'lucide-react';
 
 const certifications = [
   {
-    title: 'AWS Certified Solutions Architect',
-    organization: 'Amazon Web Services',
+    title: 'Fundamentals of Azure AI Services',
+    organization: 'Microsoft',
     year: '2024',
-    link: 'https://aws.amazon.com/certification/',
+    link: 'https://learn.microsoft.com/',
   },
   {
-    title: 'TensorFlow Developer Certificate',
-    organization: 'Google',
-    year: '2023',
-    link: 'https://www.tensorflow.org/certificate',
+    title: 'Microsoft Cloud Adoption Framework for Azure',
+    organization: 'Microsoft',
+    year: '2024',
+    link: 'https://learn.microsoft.com/',
   },
   {
-    title: 'Meta Front-End Developer Professional',
-    organization: 'Meta',
-    year: '2023',
-    link: 'https://www.coursera.org/professional-certificates/meta-front-end-developer',
+    title: 'AI/ML Engineer – Stage 2',
+    organization: 'SLIIT',
+    year: '2024',
+    link: 'https://www.sliit.lk/',
   },
   {
-    title: 'Natural Language Processing Specialization',
-    organization: 'DeepLearning.AI',
-    year: '2023',
-    link: 'https://www.coursera.org/specializations/natural-language-processing',
-  },
-  {
-    title: 'MongoDB Certified Developer',
-    organization: 'MongoDB University',
-    year: '2022',
-    link: 'https://university.mongodb.com/certification',
-  },
-  {
-    title: 'Professional Scrum Master I',
-    organization: 'Scrum.org',
-    year: '2022',
-    link: 'https://www.scrum.org/professional-scrum-certifications',
+    title: 'AI/ML Engineer – Stage 1',
+    organization: 'SLIIT',
+    year: '2024',
+    link: 'https://www.sliit.lk/',
   },
 ];
 

@@ -38,20 +38,20 @@ export default function Contact() {
     {
       icon: <Mail size={32} />,
       title: 'Email',
-      value: 'john@example.com',
-      link: 'mailto:john@example.com',
+      value: 'malshiwijesinghe2002@gmail.com',
+      link: 'mailto:malshiwijesinghe2002@gmail.com',
     },
     {
       icon: <Github size={32} />,
       title: 'GitHub',
-      value: '@johndoe',
-      link: 'https://github.com',
+      value: 'malshi-kavindya',
+      link: 'https://github.com/malshi-kavindya',
     },
     {
       icon: <Linkedin size={32} />,
       title: 'LinkedIn',
-      value: 'John Doe',
-      link: 'https://linkedin.com',
+      value: 'malshi-kavindya',
+      link: 'https://www.linkedin.com/in/malshi-kavindya-51215b2a6',
     },
   ];
 

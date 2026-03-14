@@ -3,32 +3,18 @@ import { Briefcase } from 'lucide-react';
 
 const experiences = [
   {
-    role: 'Senior Full-Stack Developer',
-    organization: 'Tech Innovations Inc.',
-    duration: '2023 - Present',
+    role: 'Software Developer - Trainee',
+    organization: 'Deviitor (PVT) LTD',
+    duration: '01/2024 – 01/2025',
     description:
-      'Leading development of AI-powered analytics platform. Built scalable microservices architecture serving 100K+ users. Mentoring junior developers and conducting code reviews.',
+      'Redesigned the company website to improve UI/UX and site structure, increasing traffic and customer engagement by ~25%. Developed an e-commerce website for an overseas customer, attracting 500+ users within the first 3 months. Built an e-commerce platform for an automobile company, contributing to an estimated 30% increase in profit.',
   },
   {
-    role: 'Machine Learning Engineer',
-    organization: 'DataSmart Solutions',
-    duration: '2021 - 2023',
+    role: 'Web Developer',
+    organization: 'IEEE Sri Lanka Section',
+    duration: '06/2025 – 01/2026',
     description:
-      'Developed NLP models for sentiment analysis and text classification. Improved model accuracy by 25%. Deployed ML pipelines on AWS with automated retraining.',
-  },
-  {
-    role: 'Full-Stack Developer',
-    organization: 'WebCraft Studios',
-    duration: '2019 - 2021',
-    description:
-      'Built responsive web applications using React and Node.js. Implemented real-time features with WebSockets. Optimized database queries reducing load times by 40%.',
-  },
-  {
-    role: 'Volunteer Developer',
-    organization: 'Code for Good',
-    duration: '2020 - Present',
-    description:
-      'Contributing to open-source projects focused on education technology. Built learning management system for underprivileged communities. Conducted workshops on web development.',
+      'Redesigned the official IEEE Sri Lanka website to improve usability and engagement, increasing user interaction by ~10%. Contributed to the development of a conference website, enhancing event visibility and enabling efficient access to participant information.',
   },
 ];
 

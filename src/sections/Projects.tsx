@@ -13,46 +13,46 @@ import { ExternalLink } from 'lucide-react';
 
 const projects = [
   {
-    title: 'AI Chatbot Platform',
+    title: 'Efficient LLM Fine-Tuning (Research)',
     description:
-      'Built an intelligent chatbot using NLP and transformers for customer support automation with 95% accuracy.',
-    techStack: ['Python', 'TensorFlow', 'React', 'Node.js', 'MongoDB'],
-    link: 'https://github.com',
+      'Research into Low-Rank Adaptation (LoRA) and adaptive bit quantization to reduce compute cost by 30%+ in low-resource environments while maintaining model quality.',
+    techStack: ['PyTorch', 'PEFT', 'LoRA', 'Quantization', 'Large Language Models'],
+    link: 'https://github.com/malshi-kavindya',
   },
   {
-    title: 'E-Commerce Analytics Dashboard',
+    title: 'Varrpu Life Skill Development System',
     description:
-      'Full-stack analytics platform with real-time data visualization and predictive insights for retail businesses.',
-    techStack: ['React', 'TypeScript', 'D3.js', 'PostgreSQL', 'Express'],
-    link: 'https://github.com',
+      'Built an event management and learning platform integrating a React frontend with a Flask + MongoDB backend, boosting user engagement by ~10% in 3 months.',
+    techStack: ['React', 'Python', 'Flask', 'MongoDB', 'REST API', 'PyTest'],
+    link: 'https://github.com/malshi-kavindya',
   },
   {
-    title: 'Sentiment Analysis Tool',
+    title: 'Blood Bank Management System',
     description:
-      'NLP application that analyzes social media sentiment with multi-language support and trending topic detection.',
-    techStack: ['Python', 'BERT', 'FastAPI', 'Docker', 'Redis'],
-    link: 'https://github.com',
+      'Developed a centralized platform for blood bank information and donation management using Ballerina, React, Docker, and PostgreSQL.',
+    techStack: ['Ballerina', 'React', 'Docker', 'PostgreSQL'],
+    link: 'https://github.com/malshi-kavindya',
   },
   {
-    title: 'Smart Task Manager',
+    title: 'CodeVault – Code Snippet Sharing',
     description:
-      'AI-powered task management system with priority prediction and automated scheduling using machine learning.',
-    techStack: ['Vue.js', 'Firebase', 'Python', 'Scikit-learn'],
-    link: 'https://github.com',
+      'Created a web platform for storing and sharing code snippets with real-time collaboration powered by Firebase authentication and database.',
+    techStack: ['React', 'Firebase'],
+    link: 'https://github.com/malshi-kavindya',
   },
   {
-    title: 'Real-time Collaboration Tool',
+    title: 'Remote Cleanup Bot',
     description:
-      'WebSocket-based platform for team collaboration with document editing, video calls, and project management.',
-    techStack: ['React', 'Socket.io', 'WebRTC', 'Node.js', 'AWS'],
-    link: 'https://github.com',
+      'Automated cleanup operations across 100+ LAN-connected Linux PCs using SSH remote execution and a React monitoring dashboard.',
+    techStack: ['Python', 'React', 'SSH', 'Linux'],
+    link: 'https://github.com/malshi-kavindya',
   },
   {
-    title: 'Image Recognition API',
+    title: 'Student Management System',
     description:
-      'RESTful API for image classification and object detection using deep learning with 98% accuracy.',
-    techStack: ['Python', 'PyTorch', 'FastAPI', 'Docker', 'GCP'],
-    link: 'https://github.com',
+      'Built a Java-based student record management application with SQL backend, deployed on Apache for production use.',
+    techStack: ['Java', 'SQL', 'Apache'],
+    link: 'https://github.com/malshi-kavindya',
   },
 ];
 

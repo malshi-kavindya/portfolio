@@ -1,5 +1,6 @@
 import { Box, Container, Typography, IconButton, Avatar } from '@mui/material';
 import { Github, Linkedin, Mail } from 'lucide-react';
+import dp from './profile.jpeg';
 
 export default function Hero() {
   return (
@@ -44,7 +45,7 @@ export default function Hero() {
           }}
         >
           <Avatar
-            src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400"
+              src={dp}
             alt="Profile"
             sx={{
               width: { xs: 150, md: 200 },
@@ -66,40 +67,49 @@ export default function Hero() {
               WebkitTextFillColor: 'transparent',
             }}
           >
-            Malshi Kavindya
+            Malshi Wijesinghe
           </Typography>
 
           <Typography
             variant="h5"
             color="primary.main"
             sx={{
-              mb: 3,
+              mb: 2,
               fontWeight: 600,
               fontSize: { xs: '1.2rem', md: '1.5rem' },
             }}
           >
-            AI | NLP | Full-Stack Developer
+            Computer Science Undergraduate | AI / ML | Full-Stack Developer
           </Typography>
 
           <Typography
             variant="body1"
             color="text.secondary"
             sx={{
-              maxWidth: 600,
-              mb: 4,
+              maxWidth: 680,
+              mb: 3,
               fontSize: { xs: '1rem', md: '1.1rem' },
               lineHeight: 1.8,
             }}
           >
-            Passionate about building intelligent systems and creating seamless
-            user experiences. Combining cutting-edge AI/NLP technologies with
-            modern full-stack development to solve real-world problems.
+            Passionate about Software Engineering, Artificial Intelligence, and
+            Machine Learning with hands-on experience in full-stack development
+            and AI research. Skilled at building scalable web applications and
+            data-driven solutions using modern technologies.
+          </Typography>
+
+          <Typography
+            variant="body2"
+            color="text.secondary"
+            sx={{ mb: 4, fontWeight: 500 }}
+          >
+            malshiwijesinghe2002@gmail.com • 078 759 5977 • Kandy, Sri Lanka
           </Typography>
 
           <Box sx={{ display: 'flex', gap: 2 }}>
             <IconButton
               component="a"
-              href="https://github.com"
+              href="https://github.com/malshi-kavindya"
               target="_blank"
               rel="noopener noreferrer"
               sx={{
@@ -118,7 +128,7 @@ export default function Hero() {
 
             <IconButton
               component="a"
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/malshi-kavindya-51215b2a6"
               target="_blank"
               rel="noopener noreferrer"
               sx={{
@@ -137,7 +147,7 @@ export default function Hero() {
 
             <IconButton
               component="a"
-              href="mailto:john@example.com"
+              href="mailto:malshiwijesinghe2002@gmail.com"
               sx={{
                 color: 'text.primary',
                 backgroundColor: 'background.paper',
